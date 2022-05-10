@@ -8,9 +8,9 @@ public class Supermarket {
 	public static void main(String[] args) throws Exception {
 		int ch = 0, quantity = 0;
 		String name, date;
-//		Product item = new Product(name,quantity,date);
+		
 		ArrayList<Product> items = new ArrayList<>(); //arraylist for product
-//		
+		
 		File file = new File("product.txt");
 
 		if (file.isFile()) {//reading data from the file
@@ -20,7 +20,7 @@ public class Supermarket {
 		}
 
 		Scanner sc = new Scanner(System.in);
-		// ArrayList<Product> items = new ArrayList<>();
+		
 
 		do {
 
@@ -39,7 +39,7 @@ public class Supermarket {
 				while (it.hasNext()) {
 					System.out.println(it.next());
 				}
-//			System.out.println(items.size());
+			
 
 				System.out.println("-------------------------------------\n");
 				break;
