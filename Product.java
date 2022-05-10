@@ -3,7 +3,7 @@ package office;
 import java.io.Serializable;
 
 public class Product implements Serializable {
-/**
+/** product class
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
